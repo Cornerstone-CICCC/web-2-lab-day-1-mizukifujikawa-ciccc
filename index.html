@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>City/Weather Search</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <!-- YOUR CODE HERE -->
-  
-  <script src="./app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City/Weather Search</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper day">
+      <!-- YOUR CODE HERE -->
+      <div class="input">
+        <form action="">
+          <input type="text" name="city" id="city" />
+          <button class="button" type='submit'>Search</button>
+        </form>
+      </div>
+      <div class="contents">
+        <div class="top-img">
+          <div class="city">Vancouver</div>
+          <div class="degree">20°C</div>
+        </div>
+        <div class="table">
+          <table>
+            <tr>
+              <th>Country</th>
+              <td class="country">Canada</td>
+            </tr>
+            <tr>
+              <th>Timezone</th>
+              <td class="timezone">Vancouver/America</td>
+            </tr>
+            <tr>
+              <th>Population</th>
+              <td class="population">10000</td>
+            </tr>
+            <tr>
+              <th>Tomorrow's Forecast</th>
+              <td class="forecast">Low: 11.5°C<br>Max: 21.5°C</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
 </html>
